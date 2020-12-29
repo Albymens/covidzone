@@ -1,0 +1,461 @@
+#main{
+    width: 100%;
+}
+#section-A{
+    background-image:url(./images/Mask\ Group\ 2@2x.png);
+    width:100% ;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.text{
+    color:white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+}
+
+li{
+    color: white;
+    padding-right: 15px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 100%;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+.logo{
+    display: flex;
+    color: white;
+}
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.RightNav{
+    display: flex;
+    margin-right: 10px;
+}
+.cart{
+    margin-top: 5px;
+}
+.search{
+    margin-top: 10px;
+}
+.contact-btn{
+    padding: 8px;
+    color: #FE0470;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    
+}
+.subSection{
+   display: flex;
+   padding-left: 150px;
+   justify-content: space-between;
+}
+img{
+    padding:10px ;
+}
+h1{
+   color: white;
+}
+h3{
+    color: #011021;
+}
+
+.contact-btn{
+    padding: 8px;
+    color: #FE0470;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    
+}
+.read-more-btn{
+    padding: 8px;
+    color: #FE0470;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+}
+.section-B{
+   margin-top:30px ;
+   display: flex;
+   justify-content: space-between;
+   padding-right: 120px;
+}
+a{
+    color: #FE0470;
+    font-size: small;
+    margin: 10px;
+}
+.read-more1-btn{
+    padding: 8px;
+    color:#ffff ;
+    background-color:#FE0470;
+    border-radius: 4px;
+    border: none;
+}
+.wrap {
+    word-wrap: break-word;
+    width: 50%;
+    margin: auto;
+}
+
+
+.Contagious{
+   display: flex;  
+}
+
+.allContagious{
+    display: flex;
+    padding-left:150px;
+    padding-right:150px;
+    justify-content: space-between;
+}
+
+
+.MoreProduct-btn{
+    padding: 12px;
+    color:#ffff ;
+    background-color:#FE0470;
+    border-radius: 4px;
+    border: none;
+}
+.MoreProduct{
+    margin: 50px;
+    text-align: center;
+}
+.section-D{
+   display: flex;
+   padding-left:150px;
+   padding-right:150px;
+   justify-content: space-between;
+}
+.contagious{
+    margin-bottom: 50px;
+}
+.AddCart-btn{
+    padding: 8px;
+    color:#ffff ;
+    background-color:#FE0470;
+    border-radius: 4px;
+    border: none;
+}
+.AddCart-btn2{
+    padding: 8px;
+    color:#ffff ;
+    background-color:#FFE8F2;
+    border-radius: 4px;
+    border: none;
+}
+.col-C{
+width: 70%; 
+}
+.col{
+ width: 80%; 
+}
+.col-1{
+    width: 80%; 
+   }
+.info{
+width: 55%; 
+}
+.col-B{
+width: 30%; 
+}
+.section-C{
+    text-align: center;
+    margin: 60px;
+}
+.contain{
+    background-color: #FE0470;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.col-1 h3{
+    color: white;
+}
+
+.symptons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+.Allsymptons{
+    display: flex;
+}
+
+.Symptons{
+   display: flex;
+   padding-left:150px;
+   justify-content: space-between;
+}
+
+.imageNumber{
+   display:flex;
+   margin-top:40px;
+}
+
+.condition{
+    margin-left:35px ;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.price img{
+    margin-top: 12px;
+}
+footer{
+    background-color: #011021;
+    
+}
+
+ol{
+    list-style: none;
+    color: #A9B2BC;
+}
+ol h3{
+    color: #fff;
+}
+ ol a{
+    color: #4c5b6d; 
+    text-decoration: none; 
+    font-size: large;
+    
+}
+.member{
+    color: #4c5b6d;
+}
+.member h3{
+    color: #fff;
+}
+.access{
+    display: flex;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 150px;
+}
+
+.footer-sub{
+    color: #4c5b6d;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 150px;
+    border-top: 0.5px solid #707070;
+}
+
+.legal-policy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal-policy p{
+    padding:10px ;
+}
+input{
+    padding: 15px;
+    border: none;
+}
+.send{
+    background-color: #FE0470;
+    color: rgb(250, 220, 220); 
+    border: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+    .col{
+        width: 30%; 
+       }
+       .col-1{
+           width: 30%; 
+          }
+    .nav {
+        display: none;
+        width: 100%;
+    }
+    .wrap {
+        width: 80%;
+    }
+
+     .nav ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+     .RightNav{
+        display: none;
+        width: 100%;
+    } 
+
+    .nav ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+    .subSection{
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .info{
+         width: 90%;
+     }
+     img{
+        padding-top:10px ;
+    }
+    .subSection{
+        padding-left: 0px;
+     }
+    .covidImage{
+        width: 100%; 
+        margin-top: 10%;
+        }
+    .section-B{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .col-C{
+        width: 90%; 
+        }
+
+    .section-C{
+        text-align: center;
+        
+    }
+    .allContagious{
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .contagious{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+        padding: 0%;
+        margin: 0%;
+     }
+
+     .sympton1{
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;   
+     }
+    
+     .Allsymptons{
+         display: flex;
+         flex-direction: column;
+         align-items: center;  
+     }
+
+     .Symptons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+     }
+
+     .section-D{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+     }
+
+    .access{
+        display: flex;
+       justify-content: space-around;
+       margin-top: 25px;
+    }
+   
+    .member{
+        margin-left: 40px;
+        font-size: large;
+    }
+
+    .price img{
+        margin-top: 5px;
+    }
+    
+    .container{
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;    
+    }
+    
+    .footer-sub{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+
+    }
+    .AddCart-btn{
+        padding: 8px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .AddCart-btn2{
+        padding: 8px;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+   
+}  
+    
+
+  
+
+
