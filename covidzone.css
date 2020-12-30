@@ -181,7 +181,7 @@ a{
     border: none;
 }
 .col-C{
-width: 70%; 
+width: 100%; 
 }
 .col{
  width: 80%; 
@@ -368,6 +368,9 @@ input{
     .col-C{
         width: 90%; 
         }
+    .col-C p{
+        display:none;
+    }    
 
     .section-C{
         text-align: center;
